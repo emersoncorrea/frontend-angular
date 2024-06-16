@@ -7,7 +7,7 @@ describe('DefautLoginLayoutComponent', () => {
   let fixture: ComponentFixture<DefautLoginLayoutComponent>;
 
   beforeEach(async () => {
-    await TestBed.configureTestingModule({
+    await TestBed.configureTestingModule({ 
       imports: [DefautLoginLayoutComponent]
     })
     .compileComponents();

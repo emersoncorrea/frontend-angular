@@ -1,14 +1,19 @@
 <main>
-    <section>
-        <img src="/assets/images/bit.png"><img/>
-        <h2></h2>
-        <button></button>
-        <div>
-            <span>or</span>
-        </div>   
-        <button></button>
+    <section class="form-section">
+        <img src="/assets/images/solana.png"><img/>
+        <h2>{{title}}</h2>
+        <ng-content></ng-content>
+        <div class="btn-wrapper">
+            <button class="btn-primary">{{ primaryBtnTxt }}</button>
+            <div class="divider">
+                <div></div>
+                <span>or</span>
+                <div></div>
+            </div>  
+            <button class="btn-secondary">{{ secondaryBtnTxt }}</button>
+        </div>
     </section>
-    <section>
+    <section class="main-section">
         <h1>Prepare!</h1>
         <img src="/assets/images/dog.png"/> 
     </section>
